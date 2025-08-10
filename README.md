@@ -1,77 +1,87 @@
-# *Expense Tracker Application*
+# Expense Tracker Application
 
-## *Project Description*
+## Project Description
 
-The *Expense Tracker* is a Python-based application developed using *PyQt6* for the GUI and *SQLite* for data storage. It allows users to manage their personal expenses by adding, deleting, and viewing entries. This project aims to enhance my skills in GUI development, database management, and version control.
+The Expense Tracker is a Python-based application developed using PyQt6 for the GUI and SQLite for data storage. It allows users to manage their personal expenses by adding, deleting, and viewing entries. This project aims to enhance my skills in GUI development, database management, and version control.
 
-## *Features*
+## Features
 
-- **Add Expense**: Allows users to add details of a new expense, including *Date*, *Category*, *Amount*, and *Description*.
-- **Delete Expense**: Users can delete an expense from the list.
-- **Persistent Data Storage**: Data is saved in an *SQLite* database.
+- **Add Expense:** Add details of a new expense, including Date, Category, Amount, and Description.
+- **Delete Expense:** Delete any expense from the list with a single click.
+- **View Expenses:** All expenses are displayed in a sortable table for easy review.
+- **Persistent Data Storage:** All data is stored in an SQLite database for reliability.
 
-## *Technologies Used*
+## Technologies Used
 
-- *Python* (Programming Language)
-- *PyQt6* (GUI Framework)
-- *SQLite* (Database for storing expenses)
-- *Git* (Version Control)
-- *GitHub* (For project hosting)
+- **Python** (Programming Language)
+- **PyQt6** (GUI Framework)
+- **SQLite** (Database)
+- **Git** (Version Control)
+- **GitHub** (Project Hosting)
 
-## *Installation*
+## Installation
 
-1. *Clone the Repository*:
-   - Clone the project to your local machine using:
-     bash
-     git clone https://github.com/Joynal604/Expense-Tracker.git
-     
+1. **Clone the Repository**
+    ```
+    git clone https://github.com/Joynal604/Expense-Tracker.git
+    ```
 
-2. *Install Python*:
-   - Make sure *Python 3.0* is installed on your system. You can check if Python is installed by running:
-     bash
-     python --version
-     
-   - If Python is not installed, you can download it from [python.org](https://www.python.org/).
+2. **Install Python**
+    - Ensure Python 3 is installed:
+    ```
+    python --version
+    ```
+    - Download from [python.org](https://www.python.org/) if needed.
 
-3. *Install Dependencies*:
-   - Install the required Python libraries using pip:
-     bash
-     pip install -r requirements.txt
-     
+3. **Install Dependencies**
+    - Install required libraries using pip:
+    ```
+    pip install -r requirements.txt
+    ```
+    *(If you do not have requirements.txt, you can install manually: `pip install PyQt6`)*
 
-4. *Running the Application*:
-   - Navigate to the project directory and run the main.py file:
-     bash
-     python main.py
-     
-   - The *Expense Tracker* application should now be running on your local machine.
+4. **Running the Application**
+    - In the project directory, run:
+    ```
+    python main.py
+    ```
+    - The Expense Tracker application should now be running locally.
 
-## *Usage*
+## Usage
 
-1. *Add Expense*:
-   - Enter the *Date*, *Category*, *Amount*, and *Description*.
-   - Click on the "Add Expense" button to save the expense.
-2. *Delete Expense*:
-   - Select an expense from the list and click "Delete Expense".
+- **Add Expense:** Enter the Date, Category, Amount, and Description, then click "Add Expense" to save.
+- **View Expenses:** Newly added expenses appear instantly in the table below.
+- **Delete Expense:** Select an expense in the table and click "Delete Expense" to remove it.
 
-## *Screenshots*
+## Screenshots
 
-### Main window:
-<img width="598" height="572" alt="image" src="https://github.com/user-attachments/assets/fc4c29c7-99f7-4190-ab83-7ae5f8126ed7" />
+### Main Window:
+<img width="598" height="572" alt="Expense Tracker Main Window" src="https://github.com/user-attachments/assets/fc4c29c7-99f7-4190-ab83-7ae5f8126ed7" />
 
 ### Adding a New Expense:
-<img width="617" height="590" alt="image" src="https://github.com/user-attachments/assets/698ba168-360d-492e-8270-84ac730748c9" />
+<img width="617" height="590" alt="Adding a New Expense" src="https://github.com/user-attachments/assets/698ba168-360d-492e-8270-84ac730748c9" />
 
 ### Deleting an Expense:
-<img width="615" height="591" alt="image" src="https://github.com/user-attachments/assets/ef7e241c-71b7-406c-b3b7-c3e2ee1b54fa" />
+<img width="615" height="591" alt="Deleting an Expense" src="https://github.com/user-attachments/assets/ef7e241c-71b7-406c-b3b7-c3e2ee1b54fa" />
 
-
-## *Contributing*
+## Contributing
 
 1. Fork the repository.
-2. Create your feature branch:  
-   ```bash
+2. Create your feature branch:
+    ```
+    git checkout -b new-feature
+    ```
+3. Commit your changes.
+4. Push to your branch:
+    ```
+    git push origin new-feature
+    ```
+5. Open a Pull Request.
 
-   git checkout -b new-feature
+## License
 
+This project is for educational purposes only.
 
+## Contact
+
+For questions or suggestions, please open an issue on GitHub.
