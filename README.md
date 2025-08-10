@@ -23,7 +23,7 @@ The *Expense Tracker* is a Python-based application developed using *PyQt6* for 
 1. *Clone the Repository*:
    - Clone the project to your local machine using:
      bash
-     git clone https://github.com/yourusername/expense-tracker.git
+     git clone https://github.com/Joynal604/Expense-Tracker.git
      
 
 2. *Install Python*:
@@ -60,4 +60,5 @@ The *Expense Tracker* is a Python-based application developed using *PyQt6* for 
 1. Fork the repository.
 2. Create your feature branch:  
    ```bash
+
    git checkout -b new-feature
