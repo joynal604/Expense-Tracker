@@ -10,17 +10,6 @@ The *Expense Tracker* is a Python-based application developed using *PyQt6* for 
 - **Delete Expense**: Users can delete an expense from the list.
 - **Persistent Data Storage**: Data is saved in an *SQLite* database.
 
-## *Screenshots*
-
-### Main window:
-<img width="598" height="572" alt="image" src="https://github.com/user-attachments/assets/fc4c29c7-99f7-4190-ab83-7ae5f8126ed7" />
-
-### Adding a New Expense:
-<img width="617" height="590" alt="image" src="https://github.com/user-attachments/assets/698ba168-360d-492e-8270-84ac730748c9" />
-
-### Deleting an Expense:
-<img width="615" height="591" alt="image" src="https://github.com/user-attachments/assets/ef7e241c-71b7-406c-b3b7-c3e2ee1b54fa" />
-
 ## *Technologies Used*
 
 - *Python* (Programming Language)
@@ -65,6 +54,17 @@ The *Expense Tracker* is a Python-based application developed using *PyQt6* for 
 2. *Delete Expense*:
    - Select an expense from the list and click "Delete Expense".
 
+## *Screenshots*
+
+### Main window:
+<img width="598" height="572" alt="image" src="https://github.com/user-attachments/assets/fc4c29c7-99f7-4190-ab83-7ae5f8126ed7" />
+
+### Adding a New Expense:
+<img width="617" height="590" alt="image" src="https://github.com/user-attachments/assets/698ba168-360d-492e-8270-84ac730748c9" />
+
+### Deleting an Expense:
+<img width="615" height="591" alt="image" src="https://github.com/user-attachments/assets/ef7e241c-71b7-406c-b3b7-c3e2ee1b54fa" />
+
 
 ## *Contributing*
 
@@ -73,4 +73,5 @@ The *Expense Tracker* is a Python-based application developed using *PyQt6* for 
    ```bash
 
    git checkout -b new-feature
+
 
